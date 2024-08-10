@@ -1,10 +1,9 @@
 Example Problems are from Introduction to Java Programming and Data Structures. 12th Edition.  By Daniel Liang
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Chapter 1: Introduction to Computers, Programs and Java.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chapter 2: Elementary Programming
 
@@ -15,8 +14,7 @@ Chapter 2: Elementary Programming
   
   * Exercise 2.23:  (Cost of driving) Write a program that prompts the user to enter the distance to drive, fuel efficiency of the car in miles per gallon and the price per gallon.  Then display the cost of the trip.
   
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Chapter 3: Selections
 
   * Exercise 3.2:  (Game: Add three numbers)  The program in Listing 3.1 AdditionQuiz.Java generates two integers and prompts the user to enter the sum of these two integers.  Revise the program to generate three single-digit integers and prompts     the user to enter the sum of these three integers.
@@ -27,7 +25,7 @@ Chapter 3: Selections
 
   * Exercise 3.17:  (Game: Scissors, Rock, Paper) Write a program that plays the popular scissors-rock-paper game.  (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock).  The program randomly generates a number         0,1, or 2 representing scissors, rock, and paper.  The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the computer or user wins, loses, or draws.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chapter 4:  Mathematical Functions, Characters, and Strings
 
@@ -41,7 +39,7 @@ Chapter 4:  Mathematical Functions, Characters, and Strings
             Federal Tax withholding:
             State tax withholding:
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chapter 5:  Loops
   * Exercise 5.3: (Conversion from Kilograms to pounds)  Write a program that displays the following table (note 1 kilogram is 2.2 pounds)
@@ -50,7 +48,7 @@ Chapter 5:  Loops
 
   * Exercise 5.32:  (Game: Lottery)  Revise Listing 3.8 lottery.java, to generate a lottery of a two-digit number.  The two digits in the number are distinct.  (Hint: generate the first digit.  Use a loop to continuously generate the second digit     until it is different from the first digit.)
   
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chapter 6: Methods
 
@@ -77,7 +75,7 @@ Chapter 6: Methods
       * A password must contain at least two digits.
     Write a program that prompts the user to enter a password and displays Valid Password if the rules are followed, or Invalid Password otherwise.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Chapter 7:  Single-Dimensional Arrays
   * Exercise 7.8:  (Average an array)  Write two overloaded methods that return the average of an array with the following headers
@@ -92,4 +90,8 @@ Chapter 7:  Single-Dimensional Arrays
       public static int[] eliminateDuplicates(int[] list)
 
     Write a test program that reads in 10 integers, invokes the method, and displays the distinct numbers separated by exactly one space.
+
+  * Exercise 7.27: (Game: locker puzzle) A school has 100 lockers and 100 students. All lockers are closed on the first day of school. As the students enter, the first student, denoted S1, opens every locker. Then the second student, S2, begins with the second locker, denoted L2, and closes every other locker.  Student S3 begins with the third locker and changes every third locker (closes it if it was open, and opens it if it was closed). Student S4 begins with locker L4 and changes every fourth locker. Student S5 starts with L5 and changes every fifth locker, and so on, until student S100 changes L100
+
+After all the students have passed through the building and changed the lockers, which lockers are open? Write a program to find your answer and display all open locker numbers separated by exactly one space. (Hint: Use an array of 100 Boolean elements, each of which indicates whether a locker is open (true) or closed (false). Initially, all lockers are closed.)
             
