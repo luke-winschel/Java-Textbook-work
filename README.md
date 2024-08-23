@@ -95,3 +95,10 @@ Chapter 7:  Single-Dimensional Arrays
 
 After all the students have passed through the building and changed the lockers, which lockers are open? Write a program to find your answer and display all open locker numbers separated by exactly one space. (Hint: Use an array of 100 Boolean elements, each of which indicates whether a locker is open (true) or closed (false). Initially, all lockers are closed.)
             
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chapter 8: Multi-Dimensional Arrays
+  *Exercise 8.37:  (Guess the capitals) Write a program that repeatedly prompts the user to enter a capital for a state.  Upon receiving the user input, the program reports whether the answer is correct.  Assume that 50 states and their capitals 
+   are stored in a two-dimensional array, as shown in Figure 8.10.  The program prompts the user to answer all state's capitals and displays the total correct count.
+
+     Figure 8.10: A two-dimensional array stores states and their capitals.
